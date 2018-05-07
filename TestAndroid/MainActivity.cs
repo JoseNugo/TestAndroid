@@ -14,7 +14,7 @@ namespace TestAndroid
         {
             AppCenter.Start("5fdd6365-1fc6-47b3-b67f-d972b03b9ec1",
                    typeof(Analytics), typeof(Crashes));
-
+             
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
